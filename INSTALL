@@ -1,11 +1,10 @@
-Tested on: Ubuntu 11.04 and Windows 7 (?)
+Tested on: Debian Wheezy and Windows 7 (?)
 
 --------------------
 Dependencies
 --------------------
 
 NOTE: There may be recursive dependencies for the following dependencies.
-Please see the documentation for the respective packages.
 
 cmake (above v2.8)
 Qt (v4.8.3)
