@@ -1,0 +1,27 @@
+Tested on: Debian Wheezy (Windows 7 coming soon)
+
+--------------------
+Dependencies
+--------------------
+
+cmake (above v2.8)
+Qt (v4.8.2)
+OpenGL
+
+--------------------
+Building (Linux)
+--------------------
+
+1. Create a directory called 'builds' within trunk/<project_name>
+2. Create a directory called 'linux' within 'builds' and cd to it
+3. Do
+
+cmake ../..
+
+4. Then run
+
+make
+
+5. To run the binary (from trunk/<project_name>/builds/linux)
+
+./src/<project_name>

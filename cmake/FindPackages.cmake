@@ -9,24 +9,18 @@ INCLUDE(${CMAKE_SOURCE_DIR}/cmake/Snippets/DFindQt.cmake)
 INCLUDE(${CMAKE_SOURCE_DIR}/cmake/Snippets/DFindGluGlut.cmake)
 # OpenMP
 INCLUDE(${CMAKE_SOURCE_DIR}/cmake/Snippets/DFindOpenMP.cmake)
-# Boost
-INCLUDE(${CMAKE_SOURCE_DIR}/cmake/Snippets/DFindBoost.cmake)
-# Eigen
-INCLUDE(${CMAKE_SOURCE_DIR}/cmake/Snippets/DFindEigen.cmake)
 
 # Set variables
 SET(EXTERN_INCS
   ${OPENGL_INCLUDE_DIR}
   ${QT4_INCLUDE_DIR}
   ${GLUT_ROOT_PATH}
+  ${GLUT_INCLUDE_DIR}
   ${GLEW_ROOT_PATH}
-  ${Boost_INCLUDE_DIR}
-  ${Eigen_INCLUDE_DIR}
   )
 SET(EXTERN_LIBS
   ${OPENGL_LIBRARIES}
   ${QT_LIBRARIES}
   ${GLUT_LIBRARIES}
   ${GLEW_LIBRARIES}
-  ${Boost_LIBRARIES}
   )
